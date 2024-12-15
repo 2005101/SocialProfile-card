@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{ /* background picture*/
+    width: 100%;
+    height:100vh;
+    background-image: url(unplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display:flex; /* flexbox layout next to each other */
+    align-items: center; /* this vertically align, below horizontal */
+    justify-content: center;
+
+}
+.profile-box{ 
+    background-color:blanchedalmond;
+    text-align: center;
+    padding: 40px 90px;/*vertical padding (top/button) space between content and it border */
+    color: black;
+    position: relative;
+    border-radius: 20px;/* creats rounded corners */
+}
+.menu-icon{
+    width: 25px;
+    position: absolute;
+    left:40px;
+    top:40px;
+}
+.setting-icon{
+    width: 25px;
+    position: absolute;
+    right:40px;
+    top:40px;
+}
+.profile-pic{
+    width: 400px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 6px;
+
+}
+.profile-button{
+    background-color: #fff;
+    color: #999;
+    padding: 60px 0;
+    margin-right: -90px;
+    margin-left: -90px;
+    margin-bottom: -40px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+.profile-button img{
+    width: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.profile-box button{
+    background-color: white;
+    color: #ff574a;
+    border:none;
+    outline:none;
+    box-shadow: 0 5px 10px rgba(244, 67, 54, 0.5);
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.profile-box h3{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.social-media img{
+    
+        float: center;
+        width:  40px;
+        height: 40px;
+        object-fit: cover;
+
+}
